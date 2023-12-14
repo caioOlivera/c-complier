@@ -1,0 +1,16 @@
+programa {
+    int x, y;
+    
+    funcao exemplo() {
+        leia x;
+        leia y;
+        se (x > y) entao {
+            escreva "x é maior que y";
+        } senao {
+            escreva "y é maior que x";
+        }
+    }
+
+    execute exemplo;
+}
+
